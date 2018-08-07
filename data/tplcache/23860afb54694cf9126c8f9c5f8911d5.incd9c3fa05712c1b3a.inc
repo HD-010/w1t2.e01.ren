@@ -1,0 +1,35 @@
+<?php
+$z[0]=Array("pagestyle","",0,91);
+$z[0][4]['maxwidth']="800";
+$z[0][4]['pagepicnum']="12";
+$z[0][4]['ddmaxwidth']="200";
+$z[0][4]['row']="3";
+$z[0][4]['col']="4";
+$z[0][4]['value']="2";
+$z[1]=Array("img"," /uploads/allimg/180731/1-1PI1105G9.jpg ",93,249);
+$z[1][4]['ddimg']="/uploads/allimg/180731/1-1PI1105G9.jpg";
+$z[1][4]['text']="魏老师速写";
+$z[1][4]['width']="640";
+$z[1][4]['height']="927";
+$z[2]=Array("img"," /uploads/allimg/180731/1-1PI1105H1.jpg ",251,407);
+$z[2][4]['ddimg']="/uploads/allimg/180731/1-1PI1105H1.jpg";
+$z[2][4]['text']="魏老师速写";
+$z[2][4]['width']="640";
+$z[2][4]['height']="944";
+$z[3]=Array("img"," /uploads/allimg/180731/1-1PI1105H3.jpg ",409,565);
+$z[3][4]['ddimg']="/uploads/allimg/180731/1-1PI1105H3.jpg";
+$z[3][4]['text']="魏老师速写";
+$z[3][4]['width']="640";
+$z[3][4]['height']="940";
+$z[4]=Array("img"," /uploads/allimg/180731/1-1PI1105H5.jpg ",567,723);
+$z[4][4]['ddimg']="/uploads/allimg/180731/1-1PI1105H5.jpg";
+$z[4][4]['text']="魏老师速写";
+$z[4][4]['width']="640";
+$z[4][4]['height']="939";
+$z[5]=Array("img"," /uploads/allimg/180731/1-1PI1105H8.jpg ",725,881);
+$z[5][4]['ddimg']="/uploads/allimg/180731/1-1PI1105H8.jpg";
+$z[5][4]['text']="魏老师速写";
+$z[5][4]['width']="640";
+$z[5][4]['height']="935";
+
+?>
