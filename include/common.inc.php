@@ -305,13 +305,40 @@ if(!isset($cfg_NotPrintHead)) {
 }
 
 //自动加载类库处理
-if (version_compare(PHP_VERSION, '7.2.0', '>='))
+function __autoload($classname)
 {
-    require_once(DEDEINC.'/autoload7.inc.php');
-} else {
-    require_once(DEDEINC.'/autoload.inc.php');
+    global $cfg_soft_lang;
+    $classname = preg_replace("/[^0-9a-z_]/i", '', $classname);
+    if( class_exists ( $classname ) )
+    {
+        return TRUE;
+    }
+    $classfile = $classname.'.php';
+    $libclassfile = $classname.'.class.php';
+        if ( is_file ( DEDEINC.'/'.$libclassfile ) )
+        {
+            require DEDEINC.'/'.$libclassfile;
+        }
+        else if( is_file ( DEDEMODEL.'/'.$classfile ) )
+        {
+            require DEDEMODEL.'/'.$classfile;
+        }
+        else
+        {
+            if (DEBUG_LEVEL === TRUE)
+            {
+                echo '<pre>';
+				echo $classname.'类找不到';
+				echo '</pre>';
+				exit ();
+            }
+            else
+            {
+                header ( "location:/404.html" );
+                die ();
+            }
+        }
 }
-
 
 //引入数据库类
 if ( $GLOBALS['cfg_dbtype'] =='mysql' )
@@ -325,6 +352,8 @@ if ( $GLOBALS['cfg_dbtype'] =='mysql' )
 } else {
     require_once(DEDEINC.'/dedesqlite.class.php');
 }
+    
+
 
 //全局常用函数
 require_once(DEDEINC.'/common.func.php');

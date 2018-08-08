@@ -1,7 +1,7 @@
 <?php
-$cfg_basehost = 'http://zbjy.e01.ren';
+$cfg_basehost = 'http://lw1t2.e01.ren';
 $cfg_cmspath = '';
-$cfg_cookie_encode = 'd0UEMkSMio1uaTYUhkfh3YgGwdvU';
+$cfg_cookie_encode = 'T3SgWBw63AwbbTlpnnrowvfVL8Tld';
 $cfg_indexurl = '/';
 $cfg_backup_dir = 'backupdata';
 $cfg_indexname = '主页';

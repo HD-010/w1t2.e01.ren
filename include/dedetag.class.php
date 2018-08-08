@@ -283,6 +283,7 @@ class DedeTagParse
                 if(isset($v[4]) && is_array($v[4]))
                 {
                     $i = 0;
+                    $ctag->CAttribute->Items = array();
                     foreach($v[4] as $k=>$v)
                     {
                         $ctag->CAttribute->Count++;
@@ -334,6 +335,7 @@ class DedeTagParse
                 fwrite($fp,"\$z[$tid]={$arrayValue}\n");
                 if(is_array($ctag->CAttribute->Items))
                 {
+                    fwrite($fp,"\$z[$tid][4]=array();\n");
                     foreach($ctag->CAttribute->Items as $k=>$v)
                     {
                         $v = str_replace("\\","\\\\",$v);

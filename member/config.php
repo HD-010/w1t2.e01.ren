@@ -13,8 +13,7 @@ function XSSClean($val) {
     if($cfg_soft_lang=='gb2312') gb2utf8($val);
     if (is_array($val))
     {
-        // while (list($key) = each($val))
-        foreach ($val as $key => $value)
+        while (list($key) = each($val))
         {
             if(in_array($key,array('tags','body','dede_fields','dede_addonfields','dopost','introduce'))) continue;
             $val[$key] = XSSClean($val[$key]);

@@ -75,7 +75,7 @@ function lib_channelartlist(&$ctag,&$refObj)
             $tpsql = " id IN($typeid) AND ispart<>2 AND ishidden<>1 ";
         }
     }
-    $dsql->SetQuery("SELECT id,typename,typedir,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath 
+    $dsql->SetQuery("SELECT id,typename,typenameen,typedir,typeimg,description,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath 
                                             FROM `#@__arctype` WHERE $tpsql ORDER BY sortrank ASC LIMIT $totalnum");
     $dsql->Execute();
     while($row = $dsql->GetArray()) {
@@ -91,6 +91,12 @@ function lib_channelartlist(&$ctag,&$refObj)
         $GLOBALS['itemindex']++;
         $pv = new PartView($typeids[$i]['id']);
         $pv->Fields['typeurl'] = GetOneTypeUrlA($typeids[$i]);
+		if($typeids[$i]['id'] == $refObj->TypeLink->TypeInfos['id'] || $typeids[$i]['id'] == $refObj->TypeLink->TypeInfos['topid'] ){  
+             $pv->Fields['currentstyle'] = $currentstyle ? $currentstyle : 'cur';  
+         }  
+         else{  
+             $pv->Fields['currentstyle'] = '';  
+         }  
         $pv->SetTemplet($innertext,'string');
         $artlist .= $pv->GetResult();
         $GLOBALS['itemparity'] = ($GLOBALS['itemparity']==1 ? 2 : 1);
@@ -103,3 +109,6 @@ function lib_channelartlist(&$ctag,&$refObj)
     }
     return $artlist;
 }
+
+
+   

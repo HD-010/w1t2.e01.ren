@@ -33,12 +33,13 @@ function lib_channel(&$ctag,&$refObj)
 {
     global $dsql;
 
-    $attlist = "typeid|0,reid|0,row|100,col|1,type|son,currentstyle|,cacheid|";
+    $attlist = "typeid|0,reid|0,row|100,col|1,type|son,currentstyle|,cacheid|,limit|";
     FillAttsDefault($ctag->CAttribute->Items,$attlist);
     extract($ctag->CAttribute->Items, EXTR_SKIP);
     $innertext = $ctag->GetInnerText();
     $line = empty($row) ? 100 : $row;
-    
+    //limit条件
+	$limit=trim(preg_replace('#limit#is','',$limit));if($limit!=''){$limitsql=" LIMIT $limit ";}else{$limitsql=" $limitsql ";}
     $likeType = '';
     //读取固定的缓存块
     $cacheid = trim($cacheid);
@@ -77,20 +78,20 @@ function lib_channel(&$ctag,&$refObj)
 
     if($type=='top')
     {
-        $sql = "SELECT id,typename,typedir,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath
-          From `#@__arctype` WHERE reid=0 And ishidden<>1 order by sortrank asc limit 0, $line ";
+        $sql = "SELECT id,typename,typenameen,typedir,typeimg,description,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath
+          From `#@__arctype` WHERE reid=0 And ishidden<>1 order by sortrank asc $limitsql ";
     }
     else if($type=='son')
     {
         if($typeid==0) return '';
-        $sql = "SELECT id,typename,typedir,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath
-          From `#@__arctype` WHERE reid='$typeid' And ishidden<>1 order by sortrank asc limit 0, $line ";
+        $sql = "SELECT id,typename,typenameen,typedir,typeimg,description,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath
+          From `#@__arctype` WHERE reid='$typeid' And ishidden<>1 order by sortrank asc $limitsql ";
     }
     else if($type=='self')
     {
         if($reid==0) return '';
-        $sql = "SELECT id,typename,typedir,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath
-            FROM `#@__arctype` WHERE reid='$reid' And ishidden<>1 order by sortrank asc limit 0, $line ";
+        $sql = "SELECT id,typename,typenameen,typedir,typeimg,description,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath
+            FROM `#@__arctype` WHERE reid='$reid' And ishidden<>1 order by sortrank asc $limitsql ";
     }
     //And id<>'$typeid'
     $needRel = false;
@@ -108,8 +109,8 @@ function lib_channel(&$ctag,&$refObj)
     //如果用子栏目模式，当没有子栏目时显示同级栏目
     if($type=='son' && $reid!=0 && $totalRow==0)
     {
-        $sql = "SELECT id,typename,typedir,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath
-            FROM `#@__arctype` WHERE reid='$reid' And ishidden<>1 order by sortrank asc limit 0, $line ";
+        $sql = "SELECT id,typename,typenameen,typedir,typeimg,description,isdefault,ispart,defaultname,namerule2,moresite,siteurl,sitepath
+            FROM `#@__arctype` WHERE reid='$reid' And ishidden<>1 order by sortrank asc $limitsql ";
         $dsql->SetQuery($sql);
       $dsql->Execute();
     }
