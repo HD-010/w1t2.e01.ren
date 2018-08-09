@@ -1,0 +1,7 @@
+INSERT INTO `dede_flink` VALUES('','','','','','','','','','');
+INSERT INTO `dede_flink` VALUES('','','','','','','','','','');
+INSERT INTO `dede_flink` VALUES('','','','','','','','','','');
+INSERT INTO `dede_flink` VALUES('','','','','','','','','','');
+INSERT INTO `dede_flink` VALUES('','','','','','','','','','');
+INSERT INTO `dede_flink` VALUES('','','','','','','','','','');
+INSERT INTO `dede_flink` VALUES('','','','','','','','','','');
