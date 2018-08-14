@@ -2,74 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7e6f0a9-cedd-4f2e-a17b-3a0e99ef9085" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/11.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/11.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/12.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/12.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/13.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/13.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/14.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/14.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/15.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/15.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/16.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/baoxianjihua/16.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/chanpindaili/index.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/chanpindaili/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/chanpindaili/list_8_1.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/chanpindaili/list_8_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/gerenfuwu/index.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/gerenfuwu/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/gerenfuwu/list_6_1.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/gerenfuwu/list_6_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/index.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/licaizengzhi/index.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/licaizengzhi/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/licaizengzhi/list_5_1.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/licaizengzhi/list_5_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/list_2_1.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/list_2_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/sumiao/index.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/sumiao/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/sumiao/list_21_1.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/sumiao/list_21_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/suxie/index.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/suxie/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/suxie/list_23_1.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/suxie/list_23_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/touziyewu/17.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/touziyewu/17.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/touziyewu/18.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/touziyewu/18.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/touziyewu/index.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/touziyewu/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/touziyewu/list_4_1.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/touziyewu/list_4_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/xintuofuwu/index.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/xintuofuwu/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/chanpinfuwu/xintuofuwu/list_7_1.html" afterPath="$PROJECT_DIR$/a/chanpinfuwu/xintuofuwu/list_7_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/guanyuwomen/index.html" afterPath="$PROJECT_DIR$/a/guanyuwomen/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/huashihuanjing/index.html" afterPath="$PROJECT_DIR$/a/huashihuanjing/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/huashihuanjing/list_20_1.html" afterPath="$PROJECT_DIR$/a/huashihuanjing/list_20_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/lianxiwomen/index.html" afterPath="$PROJECT_DIR$/a/lianxiwomen/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/index.html" afterPath="$PROJECT_DIR$/a/licaidongtai/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/list_9_1.html" afterPath="$PROJECT_DIR$/a/licaidongtai/list_9_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/list_9_2.html" afterPath="$PROJECT_DIR$/a/licaidongtai/list_9_2.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/meitixinwen/index.html" afterPath="$PROJECT_DIR$/a/licaidongtai/meitixinwen/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/meitixinwen/list_12_1.html" afterPath="$PROJECT_DIR$/a/licaidongtai/meitixinwen/list_12_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/1.html" afterPath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/1.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/10.html" afterPath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/10.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/6.html" afterPath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/6.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/7.html" afterPath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/7.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/8.html" afterPath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/8.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/9.html" afterPath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/9.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/index.html" afterPath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/list_10_1.html" afterPath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/list_10_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/list_10_2.html" afterPath="$PROJECT_DIR$/a/licaidongtai/qiyedongtai/list_10_2.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/xingyedongtai/index.html" afterPath="$PROJECT_DIR$/a/licaidongtai/xingyedongtai/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaidongtai/xingyedongtai/list_11_1.html" afterPath="$PROJECT_DIR$/a/licaidongtai/xingyedongtai/list_11_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaituandui/2.html" afterPath="$PROJECT_DIR$/a/licaituandui/2.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaituandui/3.html" afterPath="$PROJECT_DIR$/a/licaituandui/3.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaituandui/4.html" afterPath="$PROJECT_DIR$/a/licaituandui/4.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaituandui/5.html" afterPath="$PROJECT_DIR$/a/licaituandui/5.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaituandui/index.html" afterPath="$PROJECT_DIR$/a/licaituandui/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/licaituandui/list_13_1.html" afterPath="$PROJECT_DIR$/a/licaituandui/list_13_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/womendeyoushi/duojijiankong/index.html" afterPath="$PROJECT_DIR$/a/womendeyoushi/duojijiankong/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/womendeyoushi/duojijiankong/list_18_1.html" afterPath="$PROJECT_DIR$/a/womendeyoushi/duojijiankong/list_18_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/womendeyoushi/index.html" afterPath="$PROJECT_DIR$/a/womendeyoushi/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/womendeyoushi/list_15_1.html" afterPath="$PROJECT_DIR$/a/womendeyoushi/list_15_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/womendeyoushi/yiduiyifuwu/index.html" afterPath="$PROJECT_DIR$/a/womendeyoushi/yiduiyifuwu/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/womendeyoushi/yiduiyifuwu/list_16_1.html" afterPath="$PROJECT_DIR$/a/womendeyoushi/yiduiyifuwu/list_16_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/womendeyoushi/zijinanquan/index.html" afterPath="$PROJECT_DIR$/a/womendeyoushi/zijinanquan/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/womendeyoushi/zijinanquan/list_19_1.html" afterPath="$PROJECT_DIR$/a/womendeyoushi/zijinanquan/list_19_1.html" />
-      <change beforePath="$PROJECT_DIR$/a/womendeyoushi/zilishenhou/index.html" afterPath="$PROJECT_DIR$/a/womendeyoushi/zilishenhou/index.html" />
-      <change beforePath="$PROJECT_DIR$/a/womendeyoushi/zilishenhou/list_17_1.html" afterPath="$PROJECT_DIR$/a/womendeyoushi/zilishenhou/list_17_1.html" />
-      <change beforePath="$PROJECT_DIR$/data/common.inc.php" afterPath="$PROJECT_DIR$/data/common.inc.php" />
-      <change beforePath="$PROJECT_DIR$/data/config.cache.bak.php" afterPath="$PROJECT_DIR$/data/config.cache.bak.php" />
-      <change beforePath="$PROJECT_DIR$/data/config.cache.inc.php" afterPath="$PROJECT_DIR$/data/config.cache.inc.php" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/install/index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/install/module-install.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templets/default/article_article.htm" afterPath="$PROJECT_DIR$/templets/default/article_article.htm" />
+      <change beforePath="$PROJECT_DIR$/templets/default/index_article.htm" afterPath="$PROJECT_DIR$/templets/default/index_article.htm" />
+      <change beforePath="$PROJECT_DIR$/templets/default/index_contact.htm" afterPath="$PROJECT_DIR$/templets/default/index_contact.htm" />
+      <change beforePath="$PROJECT_DIR$/templets/default/list_article.htm" afterPath="$PROJECT_DIR$/templets/default/list_article.htm" />
+      <change beforePath="$PROJECT_DIR$/templets/default/list_image.htm" afterPath="$PROJECT_DIR$/templets/default/list_image.htm" />
+      <change beforePath="$PROJECT_DIR$/templets/default/list_team.htm" afterPath="$PROJECT_DIR$/templets/default/list_team.htm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,18 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,6 +26,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/templets/default/article_article.htm" />
+        <option value="$PROJECT_DIR$/templets/default/index_article.htm" />
+        <option value="$PROJECT_DIR$/templets/default/index_contact.htm" />
+        <option value="$PROJECT_DIR$/templets/default/list_article.htm" />
+        <option value="$PROJECT_DIR$/templets/default/list_image.htm" />
+        <option value="$PROJECT_DIR$/templets/default/list_team.htm" />
       </list>
     </option>
   </component>
@@ -140,6 +73,17 @@
               <item name="w1t2.e01.ren" type="b2602c69:ProjectViewProjectNode" />
               <item name="w1t2.e01.ren" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="w1t2.e01.ren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w1t2.e01.ren" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="w1t2.e01.ren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="w1t2.e01.ren" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -174,18 +118,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534285251839</updated>
-      <workItem from="1534285254486" duration="692000" />
+      <workItem from="1534285254486" duration="1114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="692000" />
+    <option name="totallyTimeSpent" value="1114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -216,6 +159,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_contact.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_image.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_team.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/article_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
